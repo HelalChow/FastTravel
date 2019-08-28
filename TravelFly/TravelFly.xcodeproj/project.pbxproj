@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B5E12AB231741A400F8DD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E12AA231741A400F8DD68 /* AppDelegate.swift */; };
+		1B5E12AD231741A400F8DD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E12AC231741A400F8DD68 /* ViewController.swift */; };
+		1B5E12B0231741A400F8DD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E12AE231741A400F8DD68 /* Main.storyboard */; };
+		1B5E12B2231741A400F8DD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E12B1231741A400F8DD68 /* Assets.xcassets */; };
+		1B5E12B5231741A400F8DD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E12B3231741A400F8DD68 /* LaunchScreen.storyboard */; };
+		1B5E12C0231741A400F8DD68 /* TravelFlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E12BF231741A400F8DD68 /* TravelFlyTests.swift */; };
+		1B5E12CB231741A400F8DD68 /* TravelFlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E12CA231741A400F8DD68 /* TravelFlyUITests.swift */; };
+		9CFDA17DDF1361FBF3F827AF /* Pods_TravelFlyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D555A186FF440F19BE3A7 /* Pods_TravelFlyUITests.framework */; };
+		A8B5743C75C32EEF7C7647F5 /* Pods_TravelFlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B2677C2495B9A13C04D82A /* Pods_TravelFlyTests.framework */; };
+		B62B5007719AA9CC284A1F7B /* Pods_TravelFly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F2703E7276BC0719FAB3A0 /* Pods_TravelFly.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B5E12BC231741A400F8DD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E129F231741A400F8DD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5E12A6231741A400F8DD68;
+			remoteInfo = TravelFly;
+		};
+		1B5E12C7231741A400F8DD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5E129F231741A400F8DD68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B5E12A6231741A400F8DD68;
+			remoteInfo = TravelFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04704356261E7B7FE872EA9D /* Pods-TravelFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFly.debug.xcconfig"; path = "Target Support Files/Pods-TravelFly/Pods-TravelFly.debug.xcconfig"; sourceTree = "<group>"; };
+		069E0D8262885E24D36A0334 /* Pods-TravelFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFly.release.xcconfig"; path = "Target Support Files/Pods-TravelFly/Pods-TravelFly.release.xcconfig"; sourceTree = "<group>"; };
+		13BB286CF3B9573A147054E5 /* Pods-TravelFlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyTests.release.xcconfig"; path = "Target Support Files/Pods-TravelFlyTests/Pods-TravelFlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B5E12A7231741A400F8DD68 /* TravelFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E12AA231741A400F8DD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B5E12AC231741A400F8DD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B5E12AF231741A400F8DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B5E12B1231741A400F8DD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B5E12B4231741A400F8DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B5E12B6231741A400F8DD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5E12BB231741A400F8DD68 /* TravelFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E12BF231741A400F8DD68 /* TravelFlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFlyTests.swift; sourceTree = "<group>"; };
+		1B5E12C1231741A400F8DD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5E12C6231741A400F8DD68 /* TravelFlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelFlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5E12CA231741A400F8DD68 /* TravelFlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelFlyUITests.swift; sourceTree = "<group>"; };
+		1B5E12CC231741A400F8DD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E683B6D952A803C819BF517 /* Pods-TravelFlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelFlyUITests/Pods-TravelFlyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45724C70A2CD874F779285B7 /* Pods-TravelFlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelFlyUITests/Pods-TravelFlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5124CA40A18EE0AAB1EB6E25 /* Pods-TravelFlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelFlyTests/Pods-TravelFlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94B2677C2495B9A13C04D82A /* Pods_TravelFlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960D555A186FF440F19BE3A7 /* Pods_TravelFlyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFlyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F2703E7276BC0719FAB3A0 /* Pods_TravelFly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B5E12A4231741A400F8DD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62B5007719AA9CC284A1F7B /* Pods_TravelFly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E12B8231741A400F8DD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B5743C75C32EEF7C7647F5 /* Pods_TravelFlyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E12C3231741A400F8DD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CFDA17DDF1361FBF3F827AF /* Pods_TravelFlyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5E129E231741A400F8DD68 = {
+			isa = PBXGroup;
+			children = (
+				1B5E12A9231741A400F8DD68 /* TravelFly */,
+				1B5E12BE231741A400F8DD68 /* TravelFlyTests */,
+				1B5E12C9231741A400F8DD68 /* TravelFlyUITests */,
+				1B5E12A8231741A400F8DD68 /* Products */,
+				21311F97BFB80BE106BA829C /* Pods */,
+				D516A143F6B3309A771EBBFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B5E12A8231741A400F8DD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E12A7231741A400F8DD68 /* TravelFly.app */,
+				1B5E12BB231741A400F8DD68 /* TravelFlyTests.xctest */,
+				1B5E12C6231741A400F8DD68 /* TravelFlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5E12A9231741A400F8DD68 /* TravelFly */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E12AA231741A400F8DD68 /* AppDelegate.swift */,
+				1B5E12AC231741A400F8DD68 /* ViewController.swift */,
+				1B5E12AE231741A400F8DD68 /* Main.storyboard */,
+				1B5E12B1231741A400F8DD68 /* Assets.xcassets */,
+				1B5E12B3231741A400F8DD68 /* LaunchScreen.storyboard */,
+				1B5E12B6231741A400F8DD68 /* Info.plist */,
+			);
+			path = TravelFly;
+			sourceTree = "<group>";
+		};
+		1B5E12BE231741A400F8DD68 /* TravelFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E12BF231741A400F8DD68 /* TravelFlyTests.swift */,
+				1B5E12C1231741A400F8DD68 /* Info.plist */,
+			);
+			path = TravelFlyTests;
+			sourceTree = "<group>";
+		};
+		1B5E12C9231741A400F8DD68 /* TravelFlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E12CA231741A400F8DD68 /* TravelFlyUITests.swift */,
+				1B5E12CC231741A400F8DD68 /* Info.plist */,
+			);
+			path = TravelFlyUITests;
+			sourceTree = "<group>";
+		};
+		21311F97BFB80BE106BA829C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04704356261E7B7FE872EA9D /* Pods-TravelFly.debug.xcconfig */,
+				069E0D8262885E24D36A0334 /* Pods-TravelFly.release.xcconfig */,
+				5124CA40A18EE0AAB1EB6E25 /* Pods-TravelFlyTests.debug.xcconfig */,
+				13BB286CF3B9573A147054E5 /* Pods-TravelFlyTests.release.xcconfig */,
+				45724C70A2CD874F779285B7 /* Pods-TravelFlyUITests.debug.xcconfig */,
+				2E683B6D952A803C819BF517 /* Pods-TravelFlyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D516A143F6B3309A771EBBFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9F2703E7276BC0719FAB3A0 /* Pods_TravelFly.framework */,
+				94B2677C2495B9A13C04D82A /* Pods_TravelFlyTests.framework */,
+				960D555A186FF440F19BE3A7 /* Pods_TravelFlyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B5E12A6231741A400F8DD68 /* TravelFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E12CF231741A400F8DD68 /* Build configuration list for PBXNativeTarget "TravelFly" */;
+			buildPhases = (
+				564D96177DB0D639D29E822A /* [CP] Check Pods Manifest.lock */,
+				1B5E12A3231741A400F8DD68 /* Sources */,
+				1B5E12A4231741A400F8DD68 /* Frameworks */,
+				1B5E12A5231741A400F8DD68 /* Resources */,
+				B0399B5D1226413CFBFFF060 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelFly;
+			productName = TravelFly;
+			productReference = 1B5E12A7231741A400F8DD68 /* TravelFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B5E12BA231741A400F8DD68 /* TravelFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E12D2231741A400F8DD68 /* Build configuration list for PBXNativeTarget "TravelFlyTests" */;
+			buildPhases = (
+				9F2E1F0EA3C110337C57B9A3 /* [CP] Check Pods Manifest.lock */,
+				1B5E12B7231741A400F8DD68 /* Sources */,
+				1B5E12B8231741A400F8DD68 /* Frameworks */,
+				1B5E12B9231741A400F8DD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5E12BD231741A400F8DD68 /* PBXTargetDependency */,
+			);
+			name = TravelFlyTests;
+			productName = TravelFlyTests;
+			productReference = 1B5E12BB231741A400F8DD68 /* TravelFlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B5E12C5231741A400F8DD68 /* TravelFlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B5E12D5231741A400F8DD68 /* Build configuration list for PBXNativeTarget "TravelFlyUITests" */;
+			buildPhases = (
+				657F25282513BE4E16485514 /* [CP] Check Pods Manifest.lock */,
+				1B5E12C2231741A400F8DD68 /* Sources */,
+				1B5E12C3231741A400F8DD68 /* Frameworks */,
+				1B5E12C4231741A400F8DD68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B5E12C8231741A400F8DD68 /* PBXTargetDependency */,
+			);
+			name = TravelFlyUITests;
+			productName = TravelFlyUITests;
+			productReference = 1B5E12C6231741A400F8DD68 /* TravelFlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B5E129F231741A400F8DD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Helal Chowdhury";
+				TargetAttributes = {
+					1B5E12A6231741A400F8DD68 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					1B5E12BA231741A400F8DD68 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1B5E12A6231741A400F8DD68;
+					};
+					1B5E12C5231741A400F8DD68 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 1B5E12A6231741A400F8DD68;
+					};
+				};
+			};
+			buildConfigurationList = 1B5E12A2231741A400F8DD68 /* Build configuration list for PBXProject "TravelFly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B5E129E231741A400F8DD68;
+			productRefGroup = 1B5E12A8231741A400F8DD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B5E12A6231741A400F8DD68 /* TravelFly */,
+				1B5E12BA231741A400F8DD68 /* TravelFlyTests */,
+				1B5E12C5231741A400F8DD68 /* TravelFlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B5E12A5231741A400F8DD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E12B5231741A400F8DD68 /* LaunchScreen.storyboard in Resources */,
+				1B5E12B2231741A400F8DD68 /* Assets.xcassets in Resources */,
+				1B5E12B0231741A400F8DD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E12B9231741A400F8DD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E12C4231741A400F8DD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		564D96177DB0D639D29E822A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelFly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657F25282513BE4E16485514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelFlyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2E1F0EA3C110337C57B9A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelFlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0399B5D1226413CFBFFF060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelFly/Pods-TravelFly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlyoverKit/FlyoverKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlyoverKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelFly/Pods-TravelFly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5E12A3231741A400F8DD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E12AD231741A400F8DD68 /* ViewController.swift in Sources */,
+				1B5E12AB231741A400F8DD68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E12B7231741A400F8DD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E12C0231741A400F8DD68 /* TravelFlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B5E12C2231741A400F8DD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5E12CB231741A400F8DD68 /* TravelFlyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B5E12BD231741A400F8DD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5E12A6231741A400F8DD68 /* TravelFly */;
+			targetProxy = 1B5E12BC231741A400F8DD68 /* PBXContainerItemProxy */;
+		};
+		1B5E12C8231741A400F8DD68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B5E12A6231741A400F8DD68 /* TravelFly */;
+			targetProxy = 1B5E12C7231741A400F8DD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B5E12AE231741A400F8DD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5E12AF231741A400F8DD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B5E12B3231741A400F8DD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B5E12B4231741A400F8DD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B5E12CD231741A400F8DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B5E12CE231741A400F8DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5E12D0231741A400F8DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04704356261E7B7FE872EA9D /* Pods-TravelFly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQX45R5BVV;
+				INFOPLIST_FILE = TravelFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B5E12D1231741A400F8DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069E0D8262885E24D36A0334 /* Pods-TravelFly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQX45R5BVV;
+				INFOPLIST_FILE = TravelFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B5E12D3231741A400F8DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5124CA40A18EE0AAB1EB6E25 /* Pods-TravelFlyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQX45R5BVV;
+				INFOPLIST_FILE = TravelFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelFly.app/TravelFly";
+			};
+			name = Debug;
+		};
+		1B5E12D4231741A400F8DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BB286CF3B9573A147054E5 /* Pods-TravelFlyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQX45R5BVV;
+				INFOPLIST_FILE = TravelFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelFly.app/TravelFly";
+			};
+			name = Release;
+		};
+		1B5E12D6231741A400F8DD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45724C70A2CD874F779285B7 /* Pods-TravelFlyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQX45R5BVV;
+				INFOPLIST_FILE = TravelFlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelFly;
+			};
+			name = Debug;
+		};
+		1B5E12D7231741A400F8DD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E683B6D952A803C819BF517 /* Pods-TravelFlyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQX45R5BVV;
+				INFOPLIST_FILE = TravelFlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TravelFly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5E12A2231741A400F8DD68 /* Build configuration list for PBXProject "TravelFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E12CD231741A400F8DD68 /* Debug */,
+				1B5E12CE231741A400F8DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E12CF231741A400F8DD68 /* Build configuration list for PBXNativeTarget "TravelFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E12D0231741A400F8DD68 /* Debug */,
+				1B5E12D1231741A400F8DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E12D2231741A400F8DD68 /* Build configuration list for PBXNativeTarget "TravelFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E12D3231741A400F8DD68 /* Debug */,
+				1B5E12D4231741A400F8DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B5E12D5231741A400F8DD68 /* Build configuration list for PBXNativeTarget "TravelFlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5E12D6231741A400F8DD68 /* Debug */,
+				1B5E12D7231741A400F8DD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B5E129F231741A400F8DD68 /* Project object */;
+}
