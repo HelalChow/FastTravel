@@ -30,7 +30,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
         "London Eye": FlyoverAwesomePlace.londonEye,
         "Statue of Liberty": FlyoverAwesomePlace.newYorkStatueOfLiberty,
         "Eiffel Tower": FlyoverAwesomePlace.parisEiffelTower,
-        
     ]
     
     @IBOutlet weak var mapView: MKMapView!
@@ -46,6 +45,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
     
     
     @IBAction func locationButtonClicked(_ sender: Any) {
+        let rand = locationDictionary.randomElement()!
+        let camera = FlyoverCamera(mapView: self.mapView, configuration: FlyoverCamera.Configuration(duration: 6.0, altitude: 300, pitch: 45.0, headingStep: 40.0))
+        camera.start(flyover: rand.value)
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(6), execute: {
+            camera.stop()
+        } )
+        
+        placeLabel.text = "\(rand.key)"
     }
     
     func mapSetup() {
