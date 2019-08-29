@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Fast Travel-->
+        <!--TravelFly-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TravelFly" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,24 +19,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="haC-Gt-XbX">
-                                <rect key="frame" x="0.0" y="140" width="375" height="651.66666666666663"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="703.66666666666663"/>
                                 <subviews>
                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HfQ-Kx-8tB">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="571.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="626.33333333333337"/>
                                     </mapView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF6-x5-mI9">
-                                        <rect key="frame" x="0.0" y="579.33333333333337" width="375" height="33"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                        <state key="normal" title="Click Me">
-                                            <color key="titleColor" red="0.21905980010000001" green="0.27274631580000003" blue="0.68619130709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="0.0" y="634.33333333333337" width="375" height="37"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
+                                        <state key="normal" title="Next Location">
+                                            <color key="titleColor" red="0.68619130709999998" green="0.35026133254331698" blue="0.36018858044460439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
                                             <action selector="locationButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuJ-ya-XkL"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit a new place" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKd-Cw-beJ">
-                                        <rect key="frame" x="0.0" y="620.33333333333337" width="375" height="31.333333333333371"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel Over The World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKd-Cw-beJ">
+                                        <rect key="frame" x="0.0" y="679.33333333333337" width="375" height="24.333333333333371"/>
+                                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -52,10 +52,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Fast Travel" id="9LX-7p-InD"/>
+                    <navigationItem key="navigationItem" title="TravelFly" id="9LX-7p-InD"/>
                     <connections>
                         <outlet property="locationButton" destination="pF6-x5-mI9" id="GsW-WF-bNh"/>
-                        <outlet property="mapView" destination="HfQ-Kx-8tB" id="fmL-zu-TjV"/>
+                        <outlet property="mapView" destination="HfQ-Kx-8tB" id="llT-Nj-vaM"/>
                         <outlet property="placeLabel" destination="ZKd-Cw-beJ" id="owQ-Rm-3Z3"/>
                     </connections>
                 </viewController>
@@ -68,11 +68,11 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ugh-jh-fw1" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="6nh-en-Rfm">
-                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6nh-en-Rfm">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" red="0.21905980010000001" green="0.27274631580000003" blue="0.68619130709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="textColor" red="0.55976364213197971" green="0.28107401571378338" blue="0.36568871538817771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>

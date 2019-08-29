@@ -28,18 +28,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
         "Rome Collosseum": FlyoverAwesomePlace.romeColosseum,
         "Big Ben": FlyoverAwesomePlace.londonBigBen,
         "London Eye": FlyoverAwesomePlace.londonEye,
-        "Statue of Liberty": FlyoverAwesomePlace.newYorkStatueOfLiberty,
-        "Eiffel Tower": FlyoverAwesomePlace.parisEiffelTower,
+        "Eiffel Tower": FlyoverAwesomePlace.parisEiffelTower
     ]
     
+  
     @IBOutlet weak var mapView: MKMapView!
-    
-    
-    
     @IBOutlet weak var locationButton: UIButton!
-    
-    
-    
     @IBOutlet weak var placeLabel: UILabel!
     
     
