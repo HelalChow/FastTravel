@@ -169,10 +169,12 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
         "Central Park": FlyoverAwesomePlace.centralParkNY,
         "Golden Gate Bridge": FlyoverAwesomePlace.sanFranciscoGoldenGateBridge,
         "Miami Beach": FlyoverAwesomePlace.miamiBeach,
-        "Rome Collosseum": FlyoverAwesomePlace.romeColosseum,
+        "Rome": FlyoverAwesomePlace.romeColosseum,
         "Big Ben": FlyoverAwesomePlace.londonBigBen,
         "London Eye": FlyoverAwesomePlace.londonEye,
-        "Eiffel Tower": FlyoverAwesomePlace.parisEiffelTower
+        "Eiffel Tower": FlyoverAwesomePlace.parisEiffelTower,
+        "New York": FlyoverAwesomePlace.newYork
+        
     ]
 
     
