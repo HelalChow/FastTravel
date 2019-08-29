@@ -27,7 +27,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF6-x5-mI9">
                                         <rect key="frame" x="0.0" y="639.66666666666663" width="375" height="37"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
-                                        <state key="normal" title="Next Location">
+                                        <state key="normal" title="Tap to say location">
                                             <color key="titleColor" red="0.68619130709999998" green="0.35026133254331698" blue="0.36018858044460439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
