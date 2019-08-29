@@ -126,7 +126,15 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
     
     
     @IBAction func locationButtonClicked(_ sender: Any) {
-        
+        if audioEngine.isRunning {
+            audioEngine.stop()
+            recognitionRequest?.endAudio()
+            locationButton.isEnabled = false
+            locationButton.setTitle("Record", for: .normal)
+        } else {
+            startRecording()
+            locationButton.setTitle("Stop", for: .normal)
+        }
         
         
         
