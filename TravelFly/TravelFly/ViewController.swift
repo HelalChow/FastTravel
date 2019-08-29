@@ -76,7 +76,7 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
             result, error in
             var isLast = false
             if result != nil {
-                isLast = (result?.isFinal)
+                isLast = (result?.isFinal)!
             }
             
             if error != nil || isLast {
@@ -92,78 +92,30 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
                 
                 if inDictionary {
                     self.placeLabel.text = bestTranscription
-                    self.uderInpu
+                    self.userInputLocation = self.locationDictionary[bestTranscription!]!
+                } else{
+                    self.placeLabel.text = "Can't find the location you are searching"
+                    self.userInputLocation = FlyoverAwesomePlace.newYorkStatueOfLiberty
                 }
+                self.mapSetup()
             }
         }
         
+        let format = inputNode.outputFormat(forBus: 0)
+        inputNode.installTap(onBus: 0, bufferSize: 1024, format: format){
+            buffer, _ in
+            self.recognitionRequest?.append(buffer)
+        }
         
+        audioEngine.prepare()
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        do{
+            try audioEngine.start()
+        } catch {
+            print("We were not able to start the engine")
+        }
         
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 
   
