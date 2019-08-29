@@ -157,9 +157,9 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
         self.mapView.isZoomEnabled = true
         self.mapView.isScrollEnabled = true
         
-        let camera = FlyoverCamera(mapView: self.mapView, configuration: FlyoverCamera.Configuration(duration: 56.0, altitude: 300, pitch: 45.0, headingStep: 20.0))
+        let camera = FlyoverCamera(mapView: self.mapView, configuration: FlyoverCamera.Configuration(duration: 6.0, altitude: 300, pitch: 45.0, headingStep: 20.0))
         camera.start(flyover: self.userInputLocation)
-        DispatchQueue.main.asyncAfter(deadline: .now() + .second(9), execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(9), execute: {
             camera.stop()
         })
     }

@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="88" width="375" height="703.66666666666663"/>
                                 <subviews>
                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="249" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HfQ-Kx-8tB">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="626.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="631.66666666666663"/>
                                     </mapView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pF6-x5-mI9">
-                                        <rect key="frame" x="0.0" y="634.33333333333337" width="375" height="37"/>
+                                        <rect key="frame" x="0.0" y="639.66666666666663" width="375" height="37"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="20"/>
                                         <state key="normal" title="Next Location">
                                             <color key="titleColor" red="0.68619130709999998" green="0.35026133254331698" blue="0.36018858044460439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -35,8 +35,8 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel Over The World" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKd-Cw-beJ">
-                                        <rect key="frame" x="0.0" y="679.33333333333337" width="375" height="24.333333333333371"/>
-                                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="22"/>
+                                        <rect key="frame" x="0.0" y="684.66666666666663" width="375" height="19"/>
+                                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
