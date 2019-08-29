@@ -41,12 +41,129 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
                 print("Speech recognition is not supported on this device")
                 
             }
+            
+            DispatchQueue.main.async {
+                self.locationButton.isEnabled = buttonState
+            }
         }
         
         self.mapSetup()
         
         
     }
+    
+    func startRecording() {
+        if recognitionTask != nil {
+            recognitionTask?.cancel()
+            recognitionTask = nil
+        }
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.setCategory(.record, mode: .measurement, options: .duckOthers)
+            try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
+        } catch {
+            print("Dailed to setup audio session")
+        }
+        
+        recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
+        let inputNode = audioEngine.inputNode
+        guard let recognitionRequest = recognitionRequest else {
+            fatalError("Could not create request instance")
+        }
+        
+        recognitionRequest.shouldReportPartialResults = true
+        recognitionTask = speechRecognizer?.recognitionTask(with: recognitionRequest) {
+            result, error in
+            var isLast = false
+            if result != nil {
+                isLast = (result?.isFinal)
+            }
+            
+            if error != nil || isLast {
+                self.audioEngine.stop()
+                inputNode.removeTap(onBus: 0)
+                
+                self.recognitionRequest = nil
+                self.recognitionTask = nil
+                
+                self.locationButton.isEnabled = true
+                let bestTranscription = result?.bestTranscription.formattedString
+                var inDictionary = self.locationDictionary.contains {$0.key == bestTranscription}
+                
+                if inDictionary {
+                    self.placeLabel.text = bestTranscription
+                    self.uderInpu
+                }
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
   
