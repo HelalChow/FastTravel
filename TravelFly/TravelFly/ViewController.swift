@@ -137,9 +137,7 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
         }
         
         
-        
-        
-        
+    
         
 //        let rand = locationDictionary.randomElement()!
 //        let camera = FlyoverCamera(mapView: self.mapView, configuration: FlyoverCamera.Configuration(duration: 6.0, altitude: 300, pitch: 45.0, headingStep: 40.0))
@@ -157,23 +155,24 @@ class ViewController: UIViewController, MKMapViewDelegate, SFSpeechRecognizerDel
         self.mapView.isZoomEnabled = true
         self.mapView.isScrollEnabled = true
         
-        let camera = FlyoverCamera(mapView: self.mapView, configuration: FlyoverCamera.Configuration(duration: 6.0, altitude: 300, pitch: 45.0, headingStep: 20.0))
+        let camera = FlyoverCamera(mapView: self.mapView, configuration: FlyoverCamera.Configuration(duration: 6.0, altitude: 1000, pitch: 45.0, headingStep: 20.0))
         camera.start(flyover: self.userInputLocation)
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(9), execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(6), execute: {
             camera.stop()
         })
     }
     
     let locationDictionary = [
         "Statue of Liberty": FlyoverAwesomePlace.newYorkStatueOfLiberty,
-        "Central Park": FlyoverAwesomePlace.centralParkNY,
-        "Golden Gate Bridge": FlyoverAwesomePlace.sanFranciscoGoldenGateBridge,
-        "Miami Beach": FlyoverAwesomePlace.miamiBeach,
+        "Midtown New York": FlyoverAwesomePlace.centralParkNY,
+        "Golden Gate": FlyoverAwesomePlace.sanFranciscoGoldenGateBridge,
+        "Miami": FlyoverAwesomePlace.miamiBeach,
         "Rome": FlyoverAwesomePlace.romeColosseum,
         "Big Ben": FlyoverAwesomePlace.londonBigBen,
-        "London Eye": FlyoverAwesomePlace.londonEye,
-        "Eiffel Tower": FlyoverAwesomePlace.parisEiffelTower,
-        "New York": FlyoverAwesomePlace.newYork
+        "London": FlyoverAwesomePlace.londonEye,
+        "Paris": FlyoverAwesomePlace.parisEiffelTower,
+        "Downtown New York": FlyoverAwesomePlace.newYork,
+        "Las Vegas": FlyoverAwesomePlace.luxorResortLasVegas
         
     ]
 
