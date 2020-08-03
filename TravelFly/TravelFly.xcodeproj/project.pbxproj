@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		1B5E12B5231741A400F8DD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5E12B3231741A400F8DD68 /* LaunchScreen.storyboard */; };
 		1B5E12C0231741A400F8DD68 /* TravelFlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E12BF231741A400F8DD68 /* TravelFlyTests.swift */; };
 		1B5E12CB231741A400F8DD68 /* TravelFlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5E12CA231741A400F8DD68 /* TravelFlyUITests.swift */; };
-		9CFDA17DDF1361FBF3F827AF /* Pods_TravelFlyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D555A186FF440F19BE3A7 /* Pods_TravelFlyUITests.framework */; };
+		9F659D504CE29CDF555AF366 /* Pods_TravelFly_TravelFlyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7D1F3D8F609F3452661E0E /* Pods_TravelFly_TravelFlyUITests.framework */; };
 		A8B5743C75C32EEF7C7647F5 /* Pods_TravelFlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B2677C2495B9A13C04D82A /* Pods_TravelFlyTests.framework */; };
 		B62B5007719AA9CC284A1F7B /* Pods_TravelFly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F2703E7276BC0719FAB3A0 /* Pods_TravelFly.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +40,8 @@
 		04704356261E7B7FE872EA9D /* Pods-TravelFly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFly.debug.xcconfig"; path = "Target Support Files/Pods-TravelFly/Pods-TravelFly.debug.xcconfig"; sourceTree = "<group>"; };
 		069E0D8262885E24D36A0334 /* Pods-TravelFly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFly.release.xcconfig"; path = "Target Support Files/Pods-TravelFly/Pods-TravelFly.release.xcconfig"; sourceTree = "<group>"; };
 		13BB286CF3B9573A147054E5 /* Pods-TravelFlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyTests.release.xcconfig"; path = "Target Support Files/Pods-TravelFlyTests/Pods-TravelFlyTests.release.xcconfig"; sourceTree = "<group>"; };
-		1B5E12A7231741A400F8DD68 /* TravelFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EB2E85F6326C983EC77162 /* Pods-TravelFly-TravelFlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFly-TravelFlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelFly-TravelFlyUITests/Pods-TravelFly-TravelFlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B5E12A7231741A400F8DD68 /* Travel Fly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Fly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5E12AA231741A400F8DD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B5E12AC231741A400F8DD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B5E12AF231741A400F8DD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,10 +56,11 @@
 		1B5E12CC231741A400F8DD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E683B6D952A803C819BF517 /* Pods-TravelFlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelFlyUITests/Pods-TravelFlyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		45724C70A2CD874F779285B7 /* Pods-TravelFlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TravelFlyUITests/Pods-TravelFlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D7D1F3D8F609F3452661E0E /* Pods_TravelFly_TravelFlyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFly_TravelFlyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5124CA40A18EE0AAB1EB6E25 /* Pods-TravelFlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFlyTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelFlyTests/Pods-TravelFlyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94B2677C2495B9A13C04D82A /* Pods_TravelFlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		960D555A186FF440F19BE3A7 /* Pods_TravelFlyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFlyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F2703E7276BC0719FAB3A0 /* Pods_TravelFly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelFly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FE137515EC8C5B9CEA44D6 /* Pods-TravelFly-TravelFlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelFly-TravelFlyUITests.release.xcconfig"; path = "Target Support Files/Pods-TravelFly-TravelFlyUITests/Pods-TravelFly-TravelFlyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFDA17DDF1361FBF3F827AF /* Pods_TravelFlyUITests.framework in Frameworks */,
+				9F659D504CE29CDF555AF366 /* Pods_TravelFly_TravelFlyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +106,7 @@
 		1B5E12A8231741A400F8DD68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B5E12A7231741A400F8DD68 /* TravelFly.app */,
+				1B5E12A7231741A400F8DD68 /* Travel Fly.app */,
 				1B5E12BB231741A400F8DD68 /* TravelFlyTests.xctest */,
 				1B5E12C6231741A400F8DD68 /* TravelFlyUITests.xctest */,
 			);
@@ -151,8 +153,9 @@
 				13BB286CF3B9573A147054E5 /* Pods-TravelFlyTests.release.xcconfig */,
 				45724C70A2CD874F779285B7 /* Pods-TravelFlyUITests.debug.xcconfig */,
 				2E683B6D952A803C819BF517 /* Pods-TravelFlyUITests.release.xcconfig */,
+				14EB2E85F6326C983EC77162 /* Pods-TravelFly-TravelFlyUITests.debug.xcconfig */,
+				C4FE137515EC8C5B9CEA44D6 /* Pods-TravelFly-TravelFlyUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,7 +164,7 @@
 			children = (
 				B9F2703E7276BC0719FAB3A0 /* Pods_TravelFly.framework */,
 				94B2677C2495B9A13C04D82A /* Pods_TravelFlyTests.framework */,
-				960D555A186FF440F19BE3A7 /* Pods_TravelFlyUITests.framework */,
+				4D7D1F3D8F609F3452661E0E /* Pods_TravelFly_TravelFlyUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,7 +188,7 @@
 			);
 			name = TravelFly;
 			productName = TravelFly;
-			productReference = 1B5E12A7231741A400F8DD68 /* TravelFly.app */;
+			productReference = 1B5E12A7231741A400F8DD68 /* Travel Fly.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1B5E12BA231741A400F8DD68 /* TravelFlyTests */ = {
@@ -215,6 +218,7 @@
 				1B5E12C2231741A400F8DD68 /* Sources */,
 				1B5E12C3231741A400F8DD68 /* Frameworks */,
 				1B5E12C4231741A400F8DD68 /* Resources */,
+				9D818FF926744CBEAA122EB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,11 +338,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TravelFlyUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TravelFly-TravelFlyUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D818FF926744CBEAA122EB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelFly-TravelFlyUITests/Pods-TravelFly-TravelFlyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelFly-TravelFlyUITests/Pods-TravelFly-TravelFlyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelFly-TravelFlyUITests/Pods-TravelFly-TravelFlyUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9F2E1F0EA3C110337C57B9A3 /* [CP] Check Pods Manifest.lock */ = {
@@ -369,16 +390,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TravelFly/Pods-TravelFly-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FlyoverKit/FlyoverKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TravelFly/Pods-TravelFly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlyoverKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TravelFly/Pods-TravelFly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -577,7 +593,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFly;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Travel Fly";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -596,7 +612,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = helalchow.TravelFly;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Travel Fly";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -648,7 +664,7 @@
 		};
 		1B5E12D6231741A400F8DD68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45724C70A2CD874F779285B7 /* Pods-TravelFlyUITests.debug.xcconfig */;
+			baseConfigurationReference = 14EB2E85F6326C983EC77162 /* Pods-TravelFly-TravelFlyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -669,7 +685,7 @@
 		};
 		1B5E12D7231741A400F8DD68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E683B6D952A803C819BF517 /* Pods-TravelFlyUITests.release.xcconfig */;
+			baseConfigurationReference = C4FE137515EC8C5B9CEA44D6 /* Pods-TravelFly-TravelFlyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
